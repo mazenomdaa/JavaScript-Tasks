@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFA-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+        <title>Assignment 1</title>
+    
+        <script>
+            // Code One
+            document.getElementById("el").style.color = "red"; /* This line code will not work since its written before the body & not given 'window.onload' */
+          </script>
+          <script>
+            // Code Two
+            window.onload = function () {
+              document.getElementById("el").style.color = "red"; /* This line code will work dispite it's written before the body because it have 'windo.onload' */
+            };
+          </script>
+    </head>
+    <body>
+        <h1 id="el">Page Title</h1>
+        <script>
+          // Code Three
+          document.getElementById("el").style.color = "red"; /* This will work since it's in the end of the body */
+        </script>
+    </body>
+</html>
