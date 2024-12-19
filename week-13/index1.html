@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFA-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Assignment 1</title>
+        <script>
+            window.onload = function (){
+            let links = document.querySelectorAll("a");
+
+            links.forEach(link => {
+                if(link.classList.contains("open") && link.textContent === "Elzero"){
+                    window.location.href = link.href;
+                }
+            });
+        }
+        </script>
+    </head>
+    <body>
+        <h1>Assignment 1</h1>
+
+        <a class="open" href="https://google.com">Google</a>
+        <a class="open" href="https://elzero.org">Elzero</a>
+        <a class="not" href="https://facebook.com">Facebook</a>
+        <a class="linked" href="https://linkedin.com">Elzero</a>
+
+        <script src="js/main1.js"></script>
+    </body>
+</html>
