@@ -1,0 +1,32 @@
+[
+{
+    "title": "Article 1",
+    "id": 1,
+    "author": "Ahmed Morad",
+    "section": "Drama"
+  },
+  {
+    "title": "Article 2",
+    "id": 2,
+    "author": "Nagib Mahfouz",
+    "section": "Novel"
+  },
+  {
+    "title": "Article 3",
+    "id": 3,
+    "author": "Taha Hussein",
+    "section": "Novel"
+  },
+  {
+    "title": "Article 4",
+    "id": 4,
+    "author": "Abas Mahmoud AlAqad",
+    "section": "Poetry"
+  },
+  {
+    "title": "Article 5",
+    "id": 5,
+    "author": "Tawfik Al-Hakim",
+    "section": "Drama" 
+  }
+]
